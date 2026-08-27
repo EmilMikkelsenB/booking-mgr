@@ -1,0 +1,21 @@
+{
+  "name": "booking-mgr",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "backend",
+    "frontend"
+  ],
+  "scripts": {
+    "start": "npm run start --workspace @booking/frontend",
+    "android": "npm run android --workspace @booking/frontend",
+    "ios": "npm run ios --workspace @booking/frontend",
+    "db:push": "npm run db:push --workspace @booking/backend",
+    "db:reset": "npm run db:reset --workspace @booking/backend",
+    "expo": "echo \"Run expo from the frontend workspace: npm start (root) or cd frontend && npx expo start\" && exit 1",
+    "format": "prettier --write ."
+  },
+  "devDependencies": {
+    "prettier": "^3.4.2"
+  }
+}

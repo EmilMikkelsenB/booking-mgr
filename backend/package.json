@@ -1,0 +1,19 @@
+{
+  "name": "@booking/backend",
+  "version": "1.0.0",
+  "private": true,
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "scripts": {
+    "db:push": "supabase db push",
+    "db:reset": "supabase db reset",
+    "migration": "supabase migration new"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.112.4"
+  },
+  "devDependencies": {
+    "supabase": "^2.116.0",
+    "typescript": "~6.0.3"
+  }
+}

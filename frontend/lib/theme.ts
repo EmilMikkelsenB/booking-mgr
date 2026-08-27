@@ -1,0 +1,15 @@
+export const colors = {
+  background: "#fff",
+  text: "#111",
+  textMuted: "#888",
+  textFaint: "#666",
+  textOnDark: "#fff",
+  border: "#d4d4d4",
+  borderSoft: "#e0e0e0",
+  buttonBackground: "#000",
+  buttonBackgroundMuted: "#3C3C3C",
+  accent: "#00695C",
+  accentDark: "#004D40",
+  bookedBackground: "#f3f3f3",
+  overlay: "rgba(0,0,0,0.35)",
+};
